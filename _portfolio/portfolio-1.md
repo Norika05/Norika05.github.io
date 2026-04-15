@@ -1,7 +1,14 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Arduino LM35 Temperature Monitor"
+excerpt: "Hệ thống giám sát nhiệt độ LM35 với Arduino"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## Mô tả
+Dự án đọc nhiệt độ từ cảm biến LM35 qua vi điều khiển Arduino, gửi dữ liệu qua cổng Serial và hiển thị đồ thị trực quan trên phần mềm máy tính (PC) [3].
+
+## Công nghệ
+Arduino C++, C# WinForms, thư viện ZedGraph, Git/GitHub [3]
+
+## Link
+[GitHub Repository](https://github.com/Norika05/Arduino_LM35_TempMonitor)

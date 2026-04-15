@@ -3,62 +3,20 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+## Học vấn
+**Học viện Công nghệ Bưu chính Viễn thông (PTIT)**
+- Ngành: Kỹ thuật IoT (Internet of Things)
+- Thời gian: 2023 - nay
+- GPA: 2.82 / 4.0
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Kỹ năng kỹ thuật
+| Kỹ năng | Mức độ | Chi tiết |
+|---------|--------|----------|
+| C/C++ (Arduino) | Trung bình | Firmware, cảm biến LM35, giao tiếp Serial |
+| C# (WinForms) | Cơ bản | Lập trình giao diện PC, thư viện ZedGraph |
+| Git/GitHub | Khá | Quản lý phiên bản, Branch, Merge, Pull Request |
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Dự án
+- **Arduino LM35 Temperature Monitor** - Môn Mạng Cảm Biến
